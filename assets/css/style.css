@@ -1,0 +1,231 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.galaksi {
+    background-image: url(/assets/images/Galaksi.jpg);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin-left: 500px;
+    width: 4000px;
+    height: 4000px;
+    animation: don 200s linear infinite;
+    box-shadow: 0px 0px 150px 10px #583bab;
+}
+
+.neptun-yorunge {
+    width: 3000px;
+    height: 3000px;
+    border: dotted 2px white;
+
+    border-radius: 100%;
+    animation: don 40s linear infinite;
+}
+
+.neptun {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: relative;
+    margin-top: -50px;
+    animation: don 10s linear infinite;
+}
+
+
+.uranus-yorunge {
+    width: 2700px;
+    height: 2700px;
+    border: dotted 2px white;
+    position: absolute;
+    border-radius: 100%;
+    animation: tersDon 25s linear infinite;
+    z-index: 1;
+}
+
+.uranus {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: -50px;
+    animation: tersDon 10s linear infinite;
+}
+
+.saturn-yorunge {
+    width: 2400px;
+    height: 2400px;
+    border: dotted 2px white;
+    position: absolute;
+    border-radius: 100%;
+    animation: don 40s linear infinite;
+}
+
+.saturn {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: -50px;
+    animation: don 10s linear infinite;
+}
+
+.jupiter-yorunge {
+    width: 2100px;
+    height: 2100px;
+    border: dotted 2px white;
+    position: absolute;
+    border-radius: 100%;
+    animation: don 45s linear infinite;
+}
+
+.jupiter {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: -50px;
+    animation: don 10s linear infinite;
+}
+
+.mars-yorunge {
+    width: 1800px;
+    height: 1800px;
+    border: dotted 2px white;
+    position: absolute;
+    border-radius: 100%;
+    animation: don 20s linear infinite;
+}
+
+.mars {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: -50px;
+    animation: don 10s linear infinite;
+}
+
+.dunya-yorunge{
+    width: 1500px;
+    height: 1500px;
+    border: dotted 2px white;
+    position: absolute;
+    border-radius: 100%;
+    animation: don 15s linear infinite;
+}
+
+.dunya-ve-ay{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: 310px;
+    animation: don 6s linear infinite;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ 
+}
+
+.dunya{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: -0px;
+    animation: don 16s linear infinite;
+}
+
+.ay{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: 155px;
+   
+    z-index: 1;
+}
+
+.venus-yorunge{
+    width: 1200px;
+    height: 1200px;
+    border: dotted 2px white;
+    position: absolute;
+    border-radius: 100%;
+    animation: tersDon 15s linear infinite;
+}
+
+.venus{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: -50px;
+    animation: tersDon 8s linear infinite;
+}
+
+.merkur-yorunge{
+    width: 900px;
+    height: 900px;
+    border: dotted 2px white;
+    position: absolute;
+    border-radius: 100%;
+    animation: don 15s linear infinite;
+}
+
+.merkur{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: -50px;
+    animation: don 8s linear infinite;
+}
+
+.gunes-yorunge{
+    width: 200px;
+    height: 200px;
+    border: dotted 2px white;
+    position: absolute;
+    border-radius: 100%;
+    animation: don 100s linear infinite;
+}
+
+.gunes{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: -50px;
+    animation: don 20s linear infinite;
+    box-shadow: 0px 0px 50px 10px #e4a870;
+}
+
+
+
+@keyframes don {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes tersDon {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}
